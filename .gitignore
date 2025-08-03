@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pyo
+*.pyd
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Conda environment files
+env/
+.venv/
+venv/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Data
+data/raw/
+data/processed/
+data/*.csv
+data/*.bz2
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.tmp
+
+# Model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pkl
+
+# Kaggle API token
+.kaggle/
+
+# Ignore DVC cache if used
+.dvc/cache/
